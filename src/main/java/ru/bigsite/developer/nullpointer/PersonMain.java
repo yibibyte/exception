@@ -11,6 +11,7 @@ public class PersonMain {
                 new Person("Мария", 30),
                 new Person(null, 40)
     );
+
         for (Person person : people) {
             System.out.println("Имя: " + person.getName());
             System.out.println("Возраст: " + (person.getAge() != 0 ? person.getAge() : "неизвестен"));
